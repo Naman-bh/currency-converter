@@ -17,6 +17,7 @@ A simple, responsive web application that converts currencies in real-time. Buil
     Frankfurter API (For live currency data)
 
 📸 Screenshots:
+
 <img width="450" height="700" alt="image" src="https://github.com/user-attachments/assets/700ee7f4-e3cf-4c83-84af-b27b3db0ed49" />
 
 🧠 How it Works
