@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <p class="subtitle">Real-time exchange rates</p>
+
+        <div class="converter-box">
+            
+            <!-- Amount Input -->
+            <div class="input-group">
+                <label>Amount</label>
+                <input type="number" id="amount" value="1" min="1">
+            </div>
+
+            <!-- Currencies Row -->
+            <div class="currencies">
+                
+                <!-- From Dropdown -->
+                <div class="currency-group">
+                    <label>From</label>
+                    <select id="from">
+                        <option value="USD" selected>USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBP</option>
+                        <option value="INR">INR</option>
+                        <option value="JPY">JPY</option>
+                        <option value="AUD">AUD</option>
+                    </select>
+                </div>
+
+                <!-- Swap Icon -->
+                <div class="swap-icon">
+                    <i class="fas fa-exchange-alt"></i>
+                </div>
+
+                <!-- To Dropdown -->
+                <div class="currency-group">
+                    <label>To</label>
+                    <select id="to">
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBP</option>
+                        <option value="INR" selected>INR</option>
+                        <option value="JPY">JPY</option>
+                        <option value="AUD">AUD</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <button id="convert-btn">Convert</button>
+
+            <!-- Results -->
+            <div class="result-box">
+                <!-- Line 1: Exchange Rate -->
+                <p id="rate-display">1 USD = 0.00 INR</p>
+                <!-- Line 2: Converted Amount -->
+                <h2 id="result-display">0.00 INR</h2>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

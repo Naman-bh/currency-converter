@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #121212; /* Dark Background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+}
+
+h2 { margin-bottom: 5px; }
+.subtitle { color: #888; margin-bottom: 30px; font-size: 0.9rem; }
+
+.converter-box {
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    width: 100%;
+    max-width: 450px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    color: #bbb;
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    background: #2a2a2a;
+    border: 1px solid #444;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+input:focus { border-color: #64ffda; }
+
+.currencies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    gap: 10px;
+}
+
+.currency-group {
+    flex: 1;
+    text-align: left;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    background: #2a2a2a;
+    border: 1px solid #444;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+}
+
+.swap-icon {
+    color: #64ffda; /* Teal Accent */
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 22px; /* Align with dropdowns */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #64ffda;
+    color: #121212;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover { background: #4ac0a8; }
+
+.result-box {
+    margin-top: 25px;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
+
+#rate-display {
+    color: #888;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+#result-display {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
