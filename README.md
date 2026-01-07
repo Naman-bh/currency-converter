@@ -1,11 +1,7 @@
-<img width="980" height="1181" alt="image" src="https://github.com/user-attachments/assets/12947324-ed0a-4df2-ae21-2ec81d276b92" />Currency Converter 💱
+>Currency Converter 💱
 
 A simple, responsive web application that converts currencies in real-time. Built with vanilla HTML, CSS, and JavaScript, utilizing the Frankfurter API for live exchange rates.
 
-Currency Converter DemoCSSJavaScript
-🚀 Live Demo
-
-You can try the live version here: [Insert your GitHub Pages Link Here]
 ✨ Features
 
     Real-time Conversion: Fetches the latest exchange rates from an external API.
@@ -21,7 +17,7 @@ You can try the live version here: [Insert your GitHub Pages Link Here]
     Frankfurter API (For live currency data)
 
 📸 Screenshots:
-<img width="980" height="1181" alt="image" src="https://github.com/user-attachments/assets/700ee7f4-e3cf-4c83-84af-b27b3db0ed49" />
+<img width="450" height="700" alt="image" src="https://github.com/user-attachments/assets/700ee7f4-e3cf-4c83-84af-b27b3db0ed49" />
 
 🧠 How it Works
 
@@ -39,7 +35,7 @@ Installation
 
     Clone the repository:
 
-    git clone https://github.com/YOUR_USERNAME/currency-converter.git
+    git clone https://github.com/Naman-bh/currency-converter.git
 
  
 
